@@ -1,9 +1,16 @@
 import React from 'react';
+import TrafficLight from './TrafficLight';
+
+
 
 const App = () => {
+
     return (
-        <h1>REACT APP</h1>
+        <>
+            <TrafficLight />
+        </>
     )
 }
 
 export default App;
+      
